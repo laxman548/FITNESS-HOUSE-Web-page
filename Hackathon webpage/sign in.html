@@ -1,0 +1,102 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="home.html">
+<style>
+    body{
+            font-family: Arial;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container1{
+            max-width: 400px;
+            width: 100%;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+
+        }
+        h2{
+            text-align: center;
+        }
+        label{
+            display: block;
+            margin: 10px 0 5px;
+        }
+        textarea{
+            width: calc(100% -20px);
+            padding: 10px;
+            margin: 10px 10px;
+            border: 1px;
+            border-radius: 4px;
+    
+        }
+        input[type="submit"]{
+            background-color: goldenrod;
+            border: none;
+            color: white;
+            padding: 8px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+            width: calc(100%-20px);
+            margin: 10px;
+        }
+</style>
+</head>
+<body>
+<div class="container2">
+    <h2>SIGN IN</h2>
+    <form action="/submit" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" ><br>
+
+        <label for="phone number">Phone number</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="home address">Home Address</label><br>
+        <input type="text" id="home adress" name="home address" placeholder="Enter your adress"><br>
+
+        <label for="STATE">STATE</label><br>
+        <select id="STATE" name="STATE">
+            <option value="Select state">Select State</option>
+            <option value="#">Andhra Pradesh</option>
+            <option value="#">Arunachal Pradesh</option>
+            <option value="#">Assam</option>
+            <option value="#">Bihar</option>
+            <option value="#">Chhattisgarh</option>
+            <option value="#">Goa</option>
+            <option value="#">Gujarat</option>
+            <option value="#">Haryana</option>
+            <option value="#">Himachal Pradesh</option>
+            <option value="#">Jarkandh</option>
+            <option value="#">Karnataka</option>
+            <option value="#">Kerala</option>
+            <option value="#">Madhya Pradesh</option>
+            <option value="#">Maharastra</option>
+            <option value="#">Manipur</option>
+            <option value="#">Meghalaya</option>
+            <option value="#">Mizoram</option>
+            <option value="#">Nagaland</option>
+            <option value="#">Odisha</option>
+            <option value="#">Punjab</option>
+            <option value="#">Rajasthan</option>
+            <option value="#">Sikkim</option>
+            <option value="#">Tamil Nadu</option>
+            <option value="#">Telangana</option>
+            <option value="#">Tripura</option>
+            <option value="#">Uttar Pradesh</option>
+        </select><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    
+
+        <input type="submit"  value="Submit">
+    </form>
+</div>
+</body>
+</html>
